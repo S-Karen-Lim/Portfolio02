@@ -1,0 +1,17 @@
+
+
+/* stylesheet for styling fonts and such?*/
+
+
+html, body{
+  margin:0;
+}
+
+@font-face {
+  font-family: ColorTubeRegular;
+  src: url(../fonts/ColorTube-Regular.otf);
+}
+
+h1{
+  font: ColorTubeRegular
+}
