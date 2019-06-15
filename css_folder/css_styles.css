@@ -7,11 +7,13 @@ html, body{
   margin:0;
 }
 
-@font-face {
-  font-family: ColorTubeRegular;
+@font-face { /*definitely need to change this font later, so ugly lmaoo*/
+  font-family: 'ColorTubeRegular';
   src: url(../fonts/ColorTube-Regular.otf);
 }
 
 h1{
-  font: ColorTubeRegular
+  font-family: ColorTubeRegular;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
 }

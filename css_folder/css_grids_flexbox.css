@@ -1,0 +1,22 @@
+
+/*place to put all my flexbox and grid styling*/
+
+.kl-container{
+  display: flex;
+  width:100%;
+  flex-flow: column nowrap;
+}
+
+.kl-item{
+  display: block;
+  margin: 0;
+  padding: 0.5rem;
+  background-color: light-grey;
+}
+
+.grid-row{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  outline: 0.5px solid red;
+}
