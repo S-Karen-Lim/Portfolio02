@@ -4,19 +4,36 @@
 .kl-container{
   display: flex;
   width:100%;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
 }
 
-.kl-item{
+kl-item{
+  display: block;
+  padding: 2rem 0 2rem 0;
+  flex: 0 1 auto;
+}
+.header-box1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0.5rem;
+  outline: 0.5px dotted blue;
+}
+
+.header-box2{
   display: block;
   margin: 0;
-  padding: 0.5rem;
-  background-color: light-grey;
+  padding: 1rem;
+  flex-grow: 6;
+  text-align: right;
+  outline: 0.5px dotted blue;
 }
 
 .grid-row{
-  display: flex;
+  display: grid;
   width: 100%;
   margin: 0;
   outline: 0.5px solid red;
+
 }
