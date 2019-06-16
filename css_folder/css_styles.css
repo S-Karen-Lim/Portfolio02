@@ -4,17 +4,19 @@
 
 
 html, body{
-  margin: 2rem auto;
+  margin: auto;
   max-width: 80rem;
 }
 
 @font-face { /*definitely need to change this font later, so ugly lmaoo*/
-  font-family: 'ColorTubeRegular';
-  src: url(../fonts/ColorTube-Regular.otf);
+  font-family: 'OpticianSans';
+  src: url(../fonts/Optician-Sans.otf);
 }
 
 h1{
-  font-family: ColorTubeRegular;
-  font-size: 2rem;
+  font-family: OpticianSans;
+  font-size: 5rem;
   letter-spacing: 0.1em;
+  right: -2rem;
+  top: -3rem;
 }

@@ -15,7 +15,7 @@
 
 kl-item{
   display: block;
-  padding: 2rem 0 2rem 0;
+  margin: 0;
   flex: 0 1 auto;
 }
 .header-box1{
@@ -23,7 +23,7 @@ kl-item{
   justify-content: space-around;
   align-items: center;
   flex-grow: 1;
-  padding: 0.5rem;
+  padding: 2rem;
   outline: 0.5px dotted blue;
 }
 
