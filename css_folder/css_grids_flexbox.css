@@ -1,10 +1,16 @@
 
 /*place to put all my flexbox and grid styling*/
 
+.kl-container-row{
+  display: flex;
+  width:100%;
+  flex-flow: row wrap;
+}
+
 .kl-container{
   display: flex;
   width:100%;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
 }
 
 kl-item{
